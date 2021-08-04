@@ -32,7 +32,7 @@ Thanks to the contributors of this page
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 ### Tutor - 
-## * [ABM Russel](https://www.linkedin.com/in/russelabm/?originalSubdomain=au)
+### * [ABM Russel](https://www.linkedin.com/in/russelabm/?originalSubdomain=au)
 
 ## Project Description -
 Loops Edtech is a web application for people who did not have a traditional CS background. The web app allows people to select thier desired Computer Science and Information Technology career path and it returns a tailor made program for each career paths. Tutors, Mentors and Teachers can upload their courses here, which will allow our learners to chose from a huge array of tutorials and lectures.
