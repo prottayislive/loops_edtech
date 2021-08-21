@@ -22,7 +22,7 @@ Thanks to the contributors of this page
     <td align="center"><a href="https://github.com/shizuka05116"><img src="https://avatars.githubusercontent.com/u/83330839?v=4" width="100px;" alt=""/><br /><sub><b>Shizuka Mizoguchi</b></sub></a><br /><a href="#content-shizuka05116" title="Content">🖋</a></td>
      <td align="center"><a href="https://github.com/LauraYounger"><img src="https://avatars.githubusercontent.com/u/62323749?v=4" width="100px;" alt=""/><br /><sub><b>Laura Younger</b></sub></a><br /><a href="#content-LauraYounger" title="Content">🖋</a></td>
     <td align="center"><a href="https://github.com/s3871348"><img src="https://avatars.githubusercontent.com/u/68855374?v=4" width="100px;" alt=""/><br /><sub><b>Oguz Bastug</b></sub></a><br /><a href="#content-s3871348" title="Content">🖋</a></td>
-   <td align="center"><a href="https://github.com/OscarAscione"><img src="https://avatars.githubusercontent.com/u/80302128?v=4" width="100px;" alt=""/><br /><sub><b>Oscar Ascione</b></sub></a><br /><a href="#content-OscarAscione" title="Content">🖋</a></td>
+    
   </tr>
 </table>
 
