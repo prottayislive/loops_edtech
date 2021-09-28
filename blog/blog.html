@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOOPS</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <!-- header -->
+<div class="header">
+    <!--nav bar-->
+    <nav class="navbar">
+        <a href="/" class="nav_logo">LOOPS</a>
+    <div class="navbar_toggle" id="mobile-menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+     </div>
+     <div class="navbar_menu">
+         <a href="/" class="navr_link">home</a> 
+         <a href="/" class="navr_link">service</a>  
+         <a href="/" class="navr_link">contact</a>  
+         <a href="/" class="navr_link">Sign up</a>  
+     </div>
+    </nav>
+</div>
+<!-- main section -->
+
+<nav class="post_bar">
+    <div class="post_menu">
+        <a href="blog.html" class="post_link">All feed</a>    
+        <a href="programming.html" class="post_link">Programming</a>  
+        <a href="software.html" class="post_link">Software</a>
+        <a href="web.html" class="post_link">Web development</a>    
+    </div>
+</nav>
+
+<section class="post_con">
+
+          <!--first row-->
+          <div class="post_wrapper"> 
+         
+                  <article class="posts">
+              <div class="name_post">
+                  <p>Post by Alex</p>
+              </div>
+              <div class="post_tiltle">
+                  
+                  <a href="https://dev.to/shaedrizwan/building-custom-hooks-in-react-to-fetch-data-4ig6" target="_blank">
+                    Building custome hooks in react to fetch data</a>
+              </div>
+              <div class="preview">
+                <p class="preview_p">
+                  Fetching data from the backend is one of the crucial parts of the web application. 
+                  For every application to work dynamically<span id="dots">...</span><span id="more">
+                  it fetches the data from the server and then displays it in the user interface.
+                  <br> 
+                  <br>
+                    We retrieve the data using the API call and using built-in React hooks like useState, useEffect, and useReducer, 
+                    the retrieved data is set to the state variable. 
+                    It is then used in components for showing it in the view.
+                <br>
+                <br>
+                    Before jumping into the code of how's it's done, 
+                    let's first look at what React hooks are and why it is used.
+                </span>
+                </p>
+                <button onclick="Function_1()" id="myBtn" class="mybtn">show more</button>
+              </div>
+
+              <div class="category">
+                  <p>#rect</p>
+                  <p>#webdev</p>
+                  <p>#javascript</p>
+              </div>
+              <div class="post_btn">
+              <button class="button">
+                <p>like</p>
+              </button>
+              <button class="button">
+                  <p>comment</p>
+                </button>
+                <button class="button">
+                  <p>save</p>
+                </button>
+              </div>
+
+
+                  </article> 
+
+                  <article class="posts">
+                    <div class="name_post">
+                        <p>Post by Madza</p>
+                    </div>
+                    <div class="post_tiltle">
+                        
+                        <a href="https://dev.to/madza/what-s-your-favorite-js-testing-framework-5c2l" target="_blank">
+                          What's your favorite JS testing framework?</a>
+                    </div>
+                    <div class="preview">
+                <p class="preview_p">
+                  Nowadays, the industry is dominated by agile development and tight deadlines. 
+                  Manual unit testing can be complex and time-consuming, 
+                  so it makes sense to rely on automated frameworks.
+                  </p>
+              </div>
+                    <div class="category">
+                        <p>#watercooler</p>
+                        <p>#testing</p>
+                        <p>#javascript</p>
+                    </div>
+                    <div class="post_btn">
+                    <button class="button">
+                      <p>like</p>
+                    </button>
+                    <button class="button">
+                        <p>comment</p>
+                      </button>
+                      <button class="button">
+                        <p>save</p>
+                      </button>
+                    </div>
+                
+                
+                        </article> 
+          </div>
+          <!--second row-->
+          <div class="post_wrapper"> 
+
+                <article class="posts">
+              <div class="name_post">
+                <p>Post by Mage</p>
+              </div>
+              <div class="post_tiltle">
+                
+                <a href="https://dev.to/mage_ai/ci-cd-automating-our-build-and-deploy-process-2i91" target="_blank">
+                  CI/CD: Automating our build and deploy process</a>
+              </div>
+              <div class="preview">
+                <h3>TLDR</h3>
+                <p class="preview_p">
+                  Having a continuous integration / continuous delivery (CI/CD) pipeline set up for each of our git 
+                  repositories is an essential part of Mage’s software development life cycle<span id="dots_2">...</span>
+                  <span id="more_2">
+                  It allows us to greatly speed up the process of testing, building, and deploying our 
+                  application without sacrificing quality assurance.
+                </span>
+                  </p>
+                  <button onclick="Function_2()" id="myBtn_2" class="mybtn">show more</button>  
+              </div>
+              <div class="category">
+                <p>#cicd</p>
+                <p>#automation</p>
+                <p>#deployment</p>
+              </div>
+              <div class="post_btn">
+              <button class="button">
+              <p>like</p>
+              </button>
+              <button class="button">
+                <p>comment</p>
+              </button>
+              <button class="button">
+                <p>save</p>
+              </button>
+              </div>
+
+
+                </article> 
+
+                <article class="posts">
+                  <div class="name_post">
+                      <p>Post by Ivan Zasivar</p>
+                  </div>
+                  <div class="post_tiltle">
+                      
+                      <a href="https://dev.to/ivanz123/building-todo-in-real-time-3pbl" target="_blank">
+                        Building ToDo in Real-Time</a>
+                  </div>
+                  <div class="preview">
+                  
+                    <p class="preview_p">
+                      I want to start with a question Have you ever wondered how applications such as Messenger, 
+                      WhatsApp can update new messages without the need to refresh the page?<spam id="dots_3">...</spam>
+                      <spam id="more_3">
+                      Well, in this article we are developing a ToDo with real-time communication so 
+                      that you can better understand how it works.
+                    </spam> 
+                      </p>
+                      <button onclick="Function_3()" id="myBtn_3" class="mybtn">show more</button>  
+                  </div>
+                  <div class="category">
+                      <p>#node</p>
+                      <p>#webdev</p>
+                      <p>#typescripts</p>
+                  </div>
+                  <div class="post_btn">
+                  <button class="button">
+                    <p>like</p>
+                  </button>
+                  <button class="button">
+                      <p>comment</p>
+                    </button>
+                    <button class="button">
+                      <p>save</p>
+                    </button>
+                  </div>
+
+
+                      </article> 
+          </div>
+          <!--third row-->
+          <div class="post_wrapper"> 
+
+                <article class="posts">
+              <div class="name_post">
+                <p>Post by Uzair</p>
+              </div>
+              <div class="post_tiltle">
+                
+                <a href="https://dev.to/uzairali10/client-and-server-side-architecture-4i67" target="_blank">
+                  Client and Server Side Architecture</a>
+              </div>
+              <div class="preview">
+                <h3>Who's a Client?</h3>
+                <p class="preview_p">
+                  In backend client generally refer to the device through which user is accessing the internet. 
+                  It could be Laptop, Mobile, Desktop, tablet etc etc. 
+                  Client contains frontend and the User Interface (UI/UX)<span id="dots_4">...</span>
+                  <span id="more_4">
+                  <br>
+                  <br>
+                  In other words client is a means or door through which a user can interact with backend.
+                   A lot of new fancy open source 
+                   technologies like ReactJs, Angular, HTML, CSS etc etc are used on client side.
+                </span>
+                  </p>
+                  <button onclick="Function_4()" id="myBtn_4" class="mybtn">show more</button>  
+              </div>
+              <div class="category">
+                <p>#systems</p>
+                <p>#webdev</p>
+                <p>#computerscience</p>
+              </div>
+              <div class="post_btn">
+              <button class="button">
+              <p>like</p>
+              </button>
+              <button class="button">
+                <p>comment</p>
+              </button>
+              <button class="button">
+                <p>save</p>
+              </button>
+              </div>
+
+
+                </article> 
+              <!--fouth row-->
+                <article class="posts">
+                  <div class="name_post">
+                      <p>Post by Ekekenta Odioyenfe</p>
+                  </div>
+                  <div class="post_tiltle">
+                      
+                      <a href="https://dev.to/zion/facebook-and-google-authentication-with-node-js-and-doppler-maf" target="_blank">
+                        Facebook and Google Authentication with Node.js and Doppler</a>
+                  </div>
+                  <div class="preview">
+                    <h3>Summary</h3>
+                  <p class="preview_p">
+                    Facebook and Google login is widely used as an authentication module in our modern web application. 
+                    There are API keys assigned to every application created using these platforms.<span id="dots_5">...</span>
+                    <span id="more_5">
+                    <br>
+                    <br>
+                    Managing these secrets in our application can be a nightmare when building large-scale applications 
+                    that require a lot of secret keys.
+                    With Doppler, you don't have to worry about the security and management of your API secret keys.
+                    <br>
+                    <br>
+                    In this tutorial, we will learn how to create a user authentication in Node.js using Facebook and Google login,
+                     manage and secure our API secrets with Doppler.
+                  </span>
+                    </p>
+                    <button onclick="Function_5()" id="myBtn_5" class="mybtn">show more</button>  
+                </div>
+                  <div class="category">
+                      <p>#security</p>
+                      <p>#software</p>
+                      <p>#javascript</p>
+                  </div>
+                  <div class="post_btn">
+                  <button class="button">
+                    <p>like</p>
+                  </button>
+                  <button class="button">
+                      <p>comment</p>
+                    </button>
+                    <button class="button">
+                      <p>save</p>
+                    </button>
+                  </div>
+
+
+                      </article> 
+          </div>
+          <!--fourth row-->
+          <div class="post_wrapper"> 
+
+                  <article class="posts">
+                <div class="name_post">
+                  <p>Post by Chistopher Glikpo</p>
+                </div>
+                <div class="post_tiltle">
+                  
+                  <a href="https://dev.to/cglikpo/create-a-netflix-clone-from-scratch-javascript-php-mysql-day-64-79o" target="_blank">
+                    Create a Netflix clone from Scratch: JavaScript PHP + MySQL Day 64</a>
+                </div>
+                <div class="preview">
+                  
+                  <p class="preview_p">
+                    Netflix provides streaming movies and TV shows to over 75 million subscribers across
+                    <br>
+                    <br>
+                    the globe. Customers can watch as many shows/ movies as they want as long as they are
+                    connected to the internet for a monthly subscription fee of about ten dollars. Netflix produces
+                  
+                    <span id="dots_6">...</span>
+                    <span id="more_6">
+                    <br>
+                    <br>
+                      original content and also pays for the rights to stream feature films and shows.
+                  </span>
+                    </p>
+                    <button onclick="Function_6()" id="myBtn_6" class="mybtn">show more</button>  
+                </div>
+                <div class="category">
+                  <p>#php</p>
+                  <p>#webdev</p>
+                  <p>#javascript</p>
+                </div>
+                <div class="post_btn">
+                <button class="button">
+                <p>like</p>
+                </button>
+                <button class="button">
+                  <p>comment</p>
+                </button>
+                <button class="button">
+                  <p>save</p>
+                </button>
+                </div>
+
+
+                  </article> 
+
+                  <article class="posts">
+                <div class="name_post">
+                    <p>Post by Siddhant Khisty</p>
+                </div>
+                <div class="post_tiltle">
+                    
+                    <a href="https://dev.to/siddhantkhisty/roadmap-to-becoming-a-developer-and-getting-known-24o4" target="_blank">
+                      Roadmap to Becoming a Developer and getting known</a>
+                </div>
+                <div class="preview">
+                  
+                  <p class="preview_p">
+                    There can be a lot of doubts for a person who wants to get into development on how to start. This blog is made to clear some of those doubts.
+                    So first and foremost, what is development?                  
+                    <span id="dots_7">...</span>
+                    <span id="more_7">
+                    <br>
+                    <br>
+                    It's the art of creating something. It can be anything that you create. It could be a website, a game, an app or a service.
+                    There are a few basic steps that every developer has to follow in order to start their journey.
+                  </span>
+                    </p>
+                    <button onclick="Function_7()" id="myBtn_7" class="mybtn">show more</button>  
+                </div>
+                <div class="category">
+                    <p>#programming</p>
+                    <p>#webdev</p>
+                    <p>#beginners</p>
+                </div>
+                <div class="post_btn">
+                <button class="button">
+                  <p>like</p>
+                </button>
+                <button class="button">
+                    <p>comment</p>
+                  </button>
+                  <button class="button">
+                    <p>save</p>
+                  </button>
+                </div>
+
+                    </article> 
+          </div>
+</section>
+
+
+<footer class="footer">
+  <div class="container">
+    
+  </div>
+</footer>
+
+
+</body>
+<script src="js/app.js">
+
+</script>
+</html>
