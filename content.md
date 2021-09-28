@@ -14,6 +14,14 @@
  - HTML: https://www.youtube.com/embed/pQN-pnXPaVg
  - ReacT: https://www.youtube.com/embed/4UZrsTqkcW4
  - Responsive Web Design: https://www.youtube.com/embed/srvUrASNj0s
+ - C++: https://www.youtube.com/embed/vLnPwxZdW4Y
+ - C: https://www.youtube.com/embed/KJgsSFOSQv0
+ - GitHub: https://www.youtube.com/embed/RGOj5yH7evk
+ - Cloud Training: https://www.youtube.com/embed/3hLmDS179YE
+ - Networking: https://www.youtube.com/embed/qiQR5rTSshw
+ - CyberSeurity: https://www.youtube.com/embed/uIkxsBgkpj8
+ - Ethical Hacking: https://www.youtube.com/embed/3Kq1MIfTWCE
+ - Ruby: https://www.youtube.com/embed/t_ispmWmdjY
 
 ## Roadmaps 
 ### software eng
