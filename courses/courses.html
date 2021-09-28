@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <script type="text/javascript" src="scripts/course.js"></script>
+</head>
+
+<body>
+    <header>
+
+        <nav class="header">
+
+            <a class="nav_items" id="home" href="index.html"><img src="images/house.png" width="25px" height="25px"
+                    alt="Home Page"></a>
+            <i class="fa fa-search"></i>
+            <input id="search" class="nav_items" type="text" name="search" placeholder="&#128269; Search Courses" oninput="filterContent()">
+            <a class="nav_items" id="nav_item1" href="">All Courses</a>
+            <a class="nav_items" id="nav_item2" href="">My Courses</a>
+
+
+            <div class="dropdown">
+                <button class="dropbtn">&#9776;</button>
+                <div class="dropdown-content">
+                    <a class="dropdown_items" id="dropdown_item1" href="#">Settings</a>
+                    <a class="dropdown_items" id="dropdown_item2" href="#">Help</a>
+                    <a class="dropdown_items" id="dropdown_item3" href="#">Log Out</a>
+                </div>
+            </div>
+
+        </nav>
+
+
+
+    </header>
+    <main>
+        <br><br>
+
+        <h1 id="top">COURSES</h1>
+        <h3>Popular Courses</h3>
+
+        <div id="video_container">
+
+            <div class="videos" id="css">
+                <p>Learn Basics of CSS</p>
+                <iframe width="200" height="200" src="https://www.youtube.com/embed/1PnVor36_40"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe><br>
+                <a href="">Enrol the course</a>
+            </div>
+
+            <div class="videos" id="javascript">
+                <p>JavaScript for Beginners</p>
+                <iframe width="200" height="200" src="https://www.youtube.com/embed/PkZNo7MFNFg"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe><br>
+                <a href="">Enrol the course</a>
+            </div>
+
+            <div class="videos" id="figma">
+                <p>Figma Course for Beginners</p>
+                <iframe width="200" height="200" src="https://www.youtube.com/embed/D56hs0Twfco"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe><br>
+                <a href="">Enrol the course</a>
+            </div>
+
+            <div class="videos" id="python">
+                <p>Learn Python for Beginners</p>
+                <iframe width="200" height="200" src="https://www.youtube.com/embed/rfscVS0vtbw"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe><br>
+                <a href="">Enrol the course</a>
+            </div>
+
+            <div class="videos" id="mysql">
+                <p>Learn MySQL</p>
+                <iframe width="200" height="200" src="https://www.youtube.com/embed/ER8oKX5myE0"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe><br>
+                <a href="">Enrol the course</a>
+
+            </div>
+            <div class="videos" id="algorithms">
+                <p>Data Structures and Algorithms in Python</p>
+                <iframe width="200" height="200" src="https://www.youtube.com/embed/pkYVOmU3MgA"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe><br>
+                <a href="">Enrol the course</a>
+
+            </div>
+            <div class="videos" id="bootstrap">
+                <p>Learn Bootstrap and SASS</p>
+                <iframe width="200" height="200" src="https://www.youtube.com/embed/iJKCj8uAHz8"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe><br>
+                <a href="">Enrol the course</a>
+            </div>
+
+            <div class="videos" id="django">
+                <p>Django 3</p>
+                <iframe width="200" height="200" src="https://www.youtube.com/embed/04L0BbAcCpQ"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe><br>
+                <a href="">Enrol the course</a>
+            </div>
+
+            <div class="videos" id="flask">
+                <p>Flask Course</p>
+                <iframe width="200" height="200" src="https://www.youtube.com/embed/Qr4QMBUPxWo"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe><br>
+                <a href="">Enrol the course</a>
+            </div>
+
+            <div class="videos" id="java">
+                <p>Java for Beginners</p>
+                <iframe width="200" height="200" src="https://www.youtube.com/embed/7WiJGTPuVeU"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe><br>
+                <a href="">Enrol the course</a>
+            </div>
+
+            <div class="videos" id="php">
+                <p>Learn PHP</p>
+                <iframe width="200" height="200" src="https://www.youtube.com/embed/OK_JCtrrv-c"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe><br>
+                <a href="">Enrol the course</a>
+            </div>
+
+            <div class="videos" id="html">
+                <p>HTML Full Course</p>
+                <iframe width="200" height="200" src="https://www.youtube.com/embed/pQN-pnXPaVg"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe><br>
+                <a href="">Enrol the course</a>
+            </div>
+
+            <div class="videos" id="react">
+                <p>Full React Course</p>
+                <iframe width="200" height="200" src="https://www.youtube.com/embed/4UZrsTqkcW4"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe><br>
+                <a href="">Enrol the course</a>
+            </div>
+            <div class="videos" id="responsive">
+                <p>Responsive Web Design</p>
+                <iframe width="200" height="200" src="https://www.youtube.com/embed/srvUrASNj0s"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe><br>
+                <a href="">Enrol the course</a>
+            </div>
+
+            <div class="videos" id="c++">
+                <p>Learn C++</p>
+                <iframe width="200" height="200" src="https://www.youtube.com/embed/vLnPwxZdW4Y"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe><br>
+                <a href="">Enrol the course</a>
+            </div>
+
+            <div class="videos" id="c">
+                <p>Learn C</p>
+                <iframe width="200" height="200" src="https://www.youtube.com/embed/KJgsSFOSQv0"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe><br>
+                <a href="">Enrol the course</a>
+            </div>
+
+            <div class="videos" id="github">
+                <p>Learn GitHub</p>
+                <iframe width="200" height="200" src="https://www.youtube.com/embed/RGOj5yH7evk"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe><br>
+                <a href="">Enrol the course</a>
+            </div>
+
+            <div class="videos" id="cloud">
+                <p>AWS Certified Cloud Training</p>
+                <iframe width="200" height="200" src="https://www.youtube.com/embed/3hLmDS179YE"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe><br>
+                <a href="">Enrol the course</a>
+            </div>
+
+            <div class="videos" id="networking">
+                <p>Network Engineering Course</p>
+                <iframe width="200" height="200" src="https://www.youtube.com/embed/qiQR5rTSshw"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe><br>
+                <a href="">Enrol the course</a>
+            </div>
+
+            <div class="videos" id="cyber_security">
+                <p>Improve Cyber Security Skills</p>
+                <iframe width="200" height="200" src="https://www.youtube.com/embed/uIkxsBgkpj8"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe><br>
+                <a href="">Enrol the course</a>
+            </div>
+
+            <div class="videos" id="hacking">
+                <p>Ethical Hacking Course</p>
+                <iframe width="200" height="200" src="https://www.youtube.com/embed/3Kq1MIfTWCE"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe><br>
+                <a href="">Enrol the course</a>
+            </div>
+
+            <div class="videos" id="ruby">
+                <p>Ruby Programming Language</p>
+                <iframe width="200" height="200" src="https://www.youtube.com/embed/t_ispmWmdjY"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe><br>
+                <a href="">Enrol the course</a>
+            </div>
+
+        </div>
+
+        <hr>
+        <br><br>
+    </main>
+    <footer>
+        <a class="footer_items" href="#top">Back to top</a>
+
+        <a class="footer_items" id="sitemap" href="sitemap.html">Site Map</a>
+
+    </footer>
+
+</body>
+
+</html>
