@@ -4,20 +4,23 @@ body{
     font-family: 'Times New Roman', Times, serif;
 }
 main{
-    margin-top: 0;
+    padding-top: 50px;
 }
 a{
     color:blue;
     
 }
 
-.header{
-    position: fixed;
-    margin: 5px;
+#home{
+    padding-top: 5px;
+}
+
+header{
+    position: relative;
+    margin-top: 30px;
     padding: 5px;
     background-color: #64A2AD;
-    width: 97%;
-
+    width: 100%;
 }
 
 #search{
@@ -26,10 +29,7 @@ a{
 .dropdown{
     float: right;
 }
-#home{
-    padding-top: 13px;
-    
-}
+
 input{
     width: 200px;
     border-radius: 50px;
@@ -99,7 +99,7 @@ input{
       
   }
   #top{
-      padding-top: 100px;
+      padding-top: 10px;
   }
   
   
