@@ -1,6 +1,6 @@
 body{
     background-color: #BFCFC7;
-    font-size: 16px;
+    font-size: 18px;
     font-family: 'Times New Roman', Times, serif;
 }
 main{
@@ -13,10 +13,11 @@ a{
 
 .header{
     position: fixed;
-    margin-top: 0px;
-    margin-bottom: 30px;
+    margin: 5px;
+    padding: 5px;
     background-color: #64A2AD;
-    width: 100%;
+    width: 97%;
+
 }
 
 #search{
@@ -42,7 +43,7 @@ input{
 }
 .dropbtn {
     
-    color: red;
+    color: blue;
     padding: 10px;
     font-size: 16px;
     margin: 5px;
@@ -83,9 +84,9 @@ input{
       text-align: center;
       row-gap: 30px;
   }
-  .videos{
+  /* .videos{
       margin-left: 0px;
-  }
+  } */
 
   footer{
       background-color: #64A2AD;
@@ -99,4 +100,9 @@ input{
   }
   #top{
       padding-top: 100px;
+  }
+  
+  
+  h1{
+      margin-left: 50px;
   }
