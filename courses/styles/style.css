@@ -1,6 +1,6 @@
 body{
-    background-color: lightgray;
-    font-size: 16px;
+    background-color: #BFCFC7;
+    font-size: 18px;
     font-family: 'Times New Roman', Times, serif;
 }
 main{
@@ -13,10 +13,10 @@ a{
 
 .header{
     position: fixed;
-    margin-top: 0px;
-    margin-bottom: 30px;
-    background-color: gray;
-    width: 100%;
+    margin: 5px;
+    padding: 5px;
+    background-color: #64A2AD;
+    width: 97%;
 }
 
 #search{
@@ -42,7 +42,7 @@ input{
 }
 .dropbtn {
     
-    color: red;
+    color: blue;
     padding: 10px;
     font-size: 16px;
     margin: 5px;
@@ -83,12 +83,12 @@ input{
       text-align: center;
       row-gap: 30px;
   }
-  .videos{
+  /* .videos{
       margin-left: 0px;
-  }
+  } */
 
   footer{
-      background-color: gray
+      background-color: #64A2AD;
   }
   .footer_items{
       padding-top: 20px;
@@ -99,4 +99,9 @@ input{
   }
   #top{
       padding-top: 100px;
+  }
+  
+  
+  h1{
+      margin-left: 50px;
   }
