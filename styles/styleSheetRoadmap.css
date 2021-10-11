@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: #64A2AD;;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: #ffff;
+}
+
+article {
+    text-align: left;
+    float: center;
+    padding: 20px;
+    width: 100%;
+    background: #BFCFC7;
+    font-size: 20px;
+ 
+    
+}
+
+footer {
+    background-color: #64A2AD;
+    padding: 10px;
+    text-align: center;
+    color: #ffff;
+}
