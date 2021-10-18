@@ -1,21 +1,5 @@
-<!DOCTYPE html>
-<html>
-
-<head>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="styles/style.css">
-    <script type="text/javascript" src="scripts/course.js"></script>
-</head>
-
-<body>
-    <header>
-        <nav class="header">
-            <div>COURSES</div>
-        </nav>
-    </header>
-    <main>
-        <br>
-
+{% extends "base.html" %} {% block title %}Home{% endblock %} {% block content
+    %}
         <div>
             <a class="nav_items" id="home" href="index.html"><img src="images/house.png" width="25px" height="25px"
                     alt="Home Page"></a>
@@ -240,14 +224,4 @@
 
         <hr>
         <br><br>
-    </main>
-    <footer>
-        <a class="footer_items" href="#top">Back to top</a>
-
-        <a class="footer_items" id="sitemap" href="sitemap.html">Site Map</a>
-
-    </footer>
-
-</body>
-
-</html>
+{% endblock %}
